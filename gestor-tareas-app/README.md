@@ -49,8 +49,8 @@ Pasos de Instalación:
 10. php artisan serve
 
 
-Las contribuciones son bienvenidas! 
-Por favor, abre un issue para discutir cualquier cambio importante o envía un pull request.
+<p>Las contribuciones son bienvenidas!</p> 
+<p>Por favor, abre un issue para discutir cualquier cambio importante o envía un pull request.</p>
 <hr>
 
 ## Licencia

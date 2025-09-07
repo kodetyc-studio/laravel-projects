@@ -1,22 +1,18 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TaskController;
 
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| Web Routes
 |--------------------------------------------------------------------------
 |
-| Aquí es donde puedes registrar las rutas de la API para tu aplicación.
+| Aquí es donde puedes registrar las rutas web para tu aplicación.
 | Estas rutas son cargadas por el RouteServiceProvider dentro de un grupo
-| que se asigna al middleware "api". Disfruta construyendo tu API!
+| que contiene el middleware "web". ¡Ahora crea algo genial!
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('/', function () {
+    return view('welcome');
 });
-
-Route::apiResource('tasks', TaskController::class);
