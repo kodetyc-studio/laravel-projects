@@ -38,17 +38,17 @@ Requisitos Previos:
 Pasos de Instalación:
 1.Clonar el repositorio:git clone [https://github.com/kodetyc-studio/laravel-projects/gestor-tareas-app.git](https://github.com/kodetyc-studio/laravel-projects/tree/4c98c607cc64d749463f11d9dfba815b59898f32/gestor-tareas-app).
 
-2. """cd gestor-tareas-app"""
-3. """Configurar el backend (Laravel):composer install"""
-4. """cp .env.example .env"""
-5. """php artisan key:generate"""
+2. cd gestor-tareas-app
+3. Configurar el backend (Laravel):composer install
+4. cp .env.example .env
+5. php artisan key:generate
 6. Configura tu base de datos MySQL en el archivo .env.
-7. Ejecutar migraciones y """seeds:php artisan migrate --seed"""
-8. Instalar dependencias del frontend (Vue.js):"""npm install"""
-9. Compilar los activos y servir la aplicación:"""npm run dev  # Para desarrollo"""
-10. """php artisan serve"""
+7. Ejecutar migraciones y seeds:php artisan migrate --seed
+8. Instalar dependencias del frontend (Vue.js):npm install
+9. Compilar los activos y servir la aplicación:npm run dev  # Para desarrollo
+10. php artisan serve
 
-La aplicación estará disponible en http://127.0.0.1:8000.Contribuciones¡
+
 Las contribuciones son bienvenidas! 
 Por favor, abre un issue para discutir cualquier cambio importante o envía un pull request.
 <hr>
