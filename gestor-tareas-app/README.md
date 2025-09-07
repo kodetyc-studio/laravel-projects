@@ -1,61 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Gestor de Tareas Minimalista
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Descripción del Proyecto
 
-## About Laravel
+Este es el primer proyecto de una serie de aplicaciones web diseñadas para demostrar habilidades de desarrollo full-stack. El objetivo principal es crear un gestor de tareas (ToDo App) completo, intuitivo y minimalista. La aplicación permitirá a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre sus tareas y gestionar su estado y categoría.
+## Características Principales
+<ul>
+<li>Gestión de Tareas (CRUD): Creación, visualización, edición y eliminación de tareas.</li>
+<li>Estados de Tarea: Cada tarea puede tener uno de tres estados: Pendiente, En progreso y Completada.</li>
+<li>Categorías y Etiquetas: Posibilidad de asignar categorías o etiquetas personalizadas a las tareas para una mejor organización.</li>
+<li>Recordatorios: Asignación de una fecha de recordatorio para cada tarea.</li>
+<li>Estilo Sostenible: Se prioriza la legibilidad y un diseño limpio con un enfoque en la calidad visual y la usabilidad.</li>
+</ul>
+<hr>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tecnologías Utilizadas 
+<ul>
+    <lli>Backend: Laravel (Framework PHP)</li>
+    <li>Frontend: Vue.js (Framework JavaScript) o React. </li>
+    <li>Base de Datos: MySQL.</li>
+    <li>Estilos: Se utilizará un enfoque modular de estilos CSS para evitar problemas de integración y garantizar una apariencia de alta calidad.</li>
+</ul>    
+    
+<hr>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Instalación y Configuración
+Requisitos Previos:
+<ol>
+    <li>PHP >= 8.1</li>
+    <li>Composer</li>
+    <li>Node.js & npm.</li>
+    <li>MySQL.</li>
+</ol>    
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<hr>
 
-## Learning Laravel
+## Git 
+Pasos de Instalación:
+1.Clonar el repositorio:git clone [https://github.com/kodetyc-studio/laravel-projects/gestor-tareas-app.git](https://github.com/kodetyc-studio/laravel-projects/tree/4c98c607cc64d749463f11d9dfba815b59898f32/gestor-tareas-app).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. """cd gestor-tareas-app"""
+3. """Configurar el backend (Laravel):composer install"""
+4. """cp .env.example .env"""
+5. """php artisan key:generate"""
+6. Configura tu base de datos MySQL en el archivo .env.
+7. Ejecutar migraciones y """seeds:php artisan migrate --seed"""
+8. Instalar dependencias del frontend (Vue.js):"""npm install"""
+9. Compilar los activos y servir la aplicación:"""npm run dev  # Para desarrollo"""
+10. """php artisan serve"""
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+La aplicación estará disponible en http://127.0.0.1:8000.Contribuciones¡
+Las contribuciones son bienvenidas! 
+Por favor, abre un issue para discutir cualquier cambio importante o envía un pull request.
+<hr>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Licencia
+Este proyecto está bajo la Licencia MIT.
